@@ -22,7 +22,7 @@ function scrollSuave() {
 
 scrollSuave();
 
-function onScrollMenu (){
+
 
 window.onscroll = function () { scrollFunction() };
 
@@ -36,6 +36,5 @@ function scrollFunction() {
 
     }
 }
-}
-onScrollMenu();
+
 
