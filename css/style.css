@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.menu ul {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    font-size: 19px;
+    background-color: #FBB03B;
+}
+
+.menu a:hover {
+    width: 200px;
+    background-color: #00A99D;
+    border-left: 6px solid grey;
+    transition-duration: 0.4s;
+}
+
+.menu .prod a:hover {
+    width: 200px;
+    background-color: #D680DD;
+    border-left: 6px solid grey;
+    transition-duration: 0.4s;
+}
+
+.menu .app a:hover {
+    width: 200px;
+    background-color: #FF931E;
+    border-left: 6px solid grey;
+    transition-duration: 0.4s;
+}
+
+.menu .about a:hover {
+    width: 200px;
+    background-color: grey;
+    border-left: 6px solid grey;
+    transition-duration: 0.4s;
+}
+
+.main {
+    text-align: center;
+}
+
+.hideon .produtos {
+    background-color: #D680DD;
+    width: 100%;
+    height: 1000px;
+}
+
+.hideon .suporte {
+    background-color: grey;
+    width: 100%;
+    height: 1000px;
+}
+
+.hideon .aplicativo {
+    background-color: #D680DD;
+    width: 100%;
+    height: 1000px;
+}
+
+.hideon .sobre {
+    background-color: grey;
+    width: 100%;
+    height: 1000px;
+}
