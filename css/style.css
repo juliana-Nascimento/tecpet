@@ -16,30 +16,36 @@ html {
     width: 15%;
 }
 
-.menu ul {
+.menu  {
     margin-right: 0px;
     padding-right: 0px;
     padding: 0px;
     margin: 0px;
     list-style: none;
+    width: 100%;
+    font-size: 19px;
+    
+        background-color: #FBB03B;
+        position: relative;
+        width: 100%;
+        display: block;
+
+      
+
+
 }
 
-.menu ul li {
+.menu li {
     display: inline;
 }
 
-.menu ul li a {
+.menu li a {
     padding: 8px 15px;
     display: inline-block;
     text-decoration: none;
     color: white;
 }
 
-.menu {
-    width: 100%;
-    font-size: 19px;
-    background-color: #FBB03B;
-}
 
 .menu a:hover {
     width: 200px;
@@ -73,26 +79,32 @@ html {
     text-align: center;
 }
 
-.hideon .produtos {
+ .produtos {
     background-color: #D680DD;
     width: 100%;
     height: 1000px;
 }
 
-.hideon .suporte {
+ .suporte {
     background-color: grey;
     width: 100%;
     height: 1000px;
 }
 
-.hideon .aplicativo {
+ .aplicativo {
     background-color: #D680DD;
     width: 100%;
     height: 1000px;
 }
 
-.hideon .sobre {
+ .sobre {
     background-color: grey;
     width: 100%;
     height: 1000px;
 }
+
+
+html  {
+    scroll-behavior: smooth;
+  }
+
